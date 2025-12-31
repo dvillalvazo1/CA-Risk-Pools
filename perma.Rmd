@@ -1,0 +1,8 @@
+
+
+```{r}
+library(readr)
+perma <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/perma.csv")
+View(perma)
+```
+
