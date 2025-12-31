@@ -158,5 +158,8 @@ cities_joined_later
 
 # Note, exclude La Canada Flintridge from this data. 
 # 10 cities joined. 
+
+write.csv(risk_wide, file ="CJPIA.csv")
+
 ```
 
