@@ -1,0 +1,162 @@
+Importing data from way back machine snapshots of the CJPIA membership page. 
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(dplyr)
+library(tidyr)
+library(stringr)
+# Read file, trim, drop empties and the literal backslash separators
+lines <- read_lines("risk_pool.txt", locale = locale(encoding = "UTF-8")) %>%
+  str_trim() %>%
+  discard(~ .x == "" | .x == "\\\\")
+
+snapshot_dates <- c()
+fiscal_years   <- c()
+cities         <- c()
+
+current_date <- NA_character_
+current_fy   <- NA_character_
+
+# Helper patterns
+date_pattern <- "^[A-Za-z]{3,9} \\d{1,2}, \\d{4}$"   # e.g. "Dec 13, 2019"
+fy_pattern   <- "^FY\\s*[0-9]{4}-?[0-9]{4}?"        # e.g. "FY 2019-2020", "FY 2020-2021"
+
+for (ln in lines) {
+
+  # 1) New snapshot date line
+  if (str_detect(ln, date_pattern)) {
+    current_date <- ln
+    next
+  }
+
+  # 2) Fiscal year line
+  if (str_detect(ln, fy_pattern)) {
+    current_fy <- ln
+    next
+  }
+
+  # 3) Skip metadata lines like "N = 115", "N = 92 Cities"
+  if (str_detect(ln, "^N\\s*=")) {
+    next
+  }
+
+  # 4) Everything else within a snapshot is treated as a city
+  if (!is.na(current_date) && !is.na(current_fy)) {
+    # clean up stray double spaces etc.
+    city_clean <- str_squish(ln)
+
+    snapshot_dates <- c(snapshot_dates, current_date)
+    fiscal_years   <- c(fiscal_years, current_fy)
+    cities         <- c(cities, city_clean)
+  }
+}
+
+risk_pool_df <- tibble(
+  date = mdy(snapshot_dates),              # convert to Date; keep as character if you prefer
+  fy   = str_extract(fiscal_years, "FY.*"),# or clean further
+  city = cities
+)
+# Create tidy dataframe
+risk_data <- tibble(
+  date = snapshot_dates,
+  fy = fiscal_years,
+  city = cities
+) 
+
+# Check results
+table(risk_data$date)
+
+risk_pool_df <- risk_pool_df %>%
+  mutate(city = str_squish(city)) %>%
+  filter(
+    city != "Actual Cities = 92",
+    !str_detect(city, "^\\\\+$")   # any row that is one or more backslashes only
+  )
+
+risk_pool_df <- risk_pool_df %>%
+  mutate(
+    fy = fy %>%
+      str_remove_all("FY") %>%          # drop literal "FY"
+      str_remove_all("members:") %>%    # drop literal "members:"
+      str_squish()                      # collapse and trim spaces
+  )
+
+rm(risk_data)
+```
+
+```{r}
+# ordering data by city and date 
+risk_pool_df <- risk_pool_df %>%
+  arrange(city, date)
+
+risk_wide <- risk_pool_df %>%
+  mutate(member = 1L) %>%
+  pivot_wider(
+    id_cols = city,
+    names_from = date,
+    values_from = member,
+    values_fill = 0L
+  )
+
+# Example: cities that joined after first snapshot
+risk_wide %>%
+  filter(`2020-05-16` == 1 & `2019-12-13` == 0)
+
+# Cities that left after first snapshot
+risk_wide %>%
+  filter(`2020-05-16` == 0 & `2019-12-13` == 1)
+
+risk_pool_df <- risk_pool_df %>%
+  arrange(city, date) %>%
+  group_by(city) %>%
+  mutate(
+    previous_member = lag(city, default = NA),
+    joined = if_else(row_number() == 1, TRUE, FALSE)
+  ) %>%
+  ungroup()
+
+# Identify last snapshot each city appeared in
+city_last_seen <- risk_pool_df %>%
+  group_by(city) %>%
+  summarise(
+    last_date = max(date),
+    .groups = "drop"
+  )
+
+# Identify cities that are no longer in the latest snapshot
+latest_snapshot <- max(risk_pool_df$date)
+
+cities_left <- city_last_seen %>%
+  filter(last_date < latest_snapshot)
+
+# View the result
+cities_left 
+# Note, 2 cities left the CJPIA over time- Hemet and Sierra Madre. The last date they were captured in the way back machine snapshots are listed below. 
+# La Canada Flintridge remains a member. There were inconsistencies with the n or Ñ but I confirmed they are still part of the risk pool as of 12/31/2025. 
+
+```
+
+```{r}
+# Identify first snapshot each city appeared in
+city_first_seen <- risk_pool_df %>%
+  group_by(city) %>%
+  summarise(
+    first_date = min(date),
+    .groups = "drop"
+  )
+
+# Identify the earliest snapshot in your dataset
+first_snapshot <- min(risk_pool_df$date)
+
+# Cities that joined after the first snapshot
+cities_joined_later <- city_first_seen %>%
+  filter(first_date > first_snapshot)
+
+# View the result
+cities_joined_later
+
+# Note, exclude La Canada Flintridge from this data. 
+# 10 cities joined. 
+```
+

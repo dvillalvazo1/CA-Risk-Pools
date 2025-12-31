@@ -1,0 +1,1786 @@
+﻿From the Way Back Machine: 
+Will help find out which cities belong to the public risk pool at different points in time and can also detect who was no longer part of the risk pool - because they dropped themselves OR because they were dropped from the risk pool. 
+\\\ 
+Dec 13, 2019 
+FY 2019-2020 members: 
+N = 115 
+Actual Cities = 92
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Canada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Sierra Madre
+Signal Hill
+Solvang
+South El Monte
+Temple City
+Villa Park
+Walnut
+West Hollywood
+Westlake Village
+\\\ 
+May 16, 2020 
+FY 2020-2021 
+N = 116 TOTAL 
+N = 92 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+ Lawndale
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+ Mission Viejo
+Monrovia 
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Sierra Madre
+Signal Hill
+Solvang
+South El Monte  
+Temple City
+Villa Park
+Walnut
+West Hollywood
+Westlake Village
+
+
+\\\ 
+Sept 21, 2020 
+FY 2020-2021 
+N = 123 TOTAL 
+N = 98 Cities specific 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay    
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates  
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Sierra Madre
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut  
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+Nov 28, 2020
+FY 2020-2021
+N = 123 TOTAL 
+N = 98 Cities specific 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+ Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia  
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach  
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Sierra Madre
+Signal Hill
+Solvang
+South El Monte  
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+January 26, 2021
+FY 2020-2021
+N = 98 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Sierra Madre
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+May 12, 2021 
+FY 2020-2021
+N = 123 TOTAL 
+N = 98 Cities specific 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay    
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach   
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead  
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Sierra Madre
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+July 29, 2021 
+FY 2021-2022
+N = 123 TOTAL 
+N = 98 Cities specific 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower 
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+September 20, 2021 
+FY 2021-2022
+N = 123 TOTAL 
+N = 98 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut 
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+December 14, 2021 
+FY 2021-2022
+N = 123 TOTAL 
+N = 98 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights 
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia  
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach  
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte  
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+June 25, 2022 
+FY 2021-2022
+N = 123 TOTAL 
+N = 98 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley 
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point 
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood 
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay  
+Needles
+Norwalk
+Ojai  
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut  
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+October 5, 2022
+FY 2022-2023
+N = 123 TOTAL 
+N = 98 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley 
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia  
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai  
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+ Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+February 7, 2023
+FY 2022-2023
+N = 123 TOTAL 
+N = 98 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+ Needles
+Norwalk
+Ojai 
+Pacific Grove
+Palm Desert
+Palos Verdes Estates    
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead  
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+October 5, 2023 
+FY 2023-2024
+N = 126 TOTAL 
+N = 101 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley 
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fountain Valley
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hermosa Beach
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Hills
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay  
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+
+
+February 23, 2024
+FY 2023-2024
+N = 126 TOTAL 
+N = 101 Cities 
+ Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fountain Valley
+Fillmore
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hemet
+Hermosa Beach
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Hills
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+
+
+August 12, 2024 
+FY 2024-2025 
+N = 126 TOTAL 
+N = 100 Cities
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+ Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Fountain Valley
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hermosa Beach
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+ La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Hills
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay  
+Needles
+Norwalk
+Ojai  
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+ Paramount
+Paso Robles
+Pismo Beach  
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut  
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+January 18, 2025 
+FY 2024-2025 
+N = 126 TOTAL 
+N = 100 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+ Diamond Bar
+Duarte
+El Centro
+Fillmore
+Fountain Valley
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hermosa Beach
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+ La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Hills
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai 
+Pacific Grove
+Palm Desert
+Palos Verdes Estates
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut  
+West Covina
+West Hollywood
+Westlake Village
+\\\ 
+
+
+October 18, 2025 
+FY 2025-2026
+N = 125 TOTAL 
+N = 100 Cities 
+Agoura Hills
+Alhambra
+Aliso Viejo
+Apple Valley
+Arroyo Grande
+Artesia
+Atascadero
+Azusa
+Bell Gardens
+Bellflower
+Big Bear Lake
+Bishop
+Bradbury
+Brawley
+Buellton
+Calabasas
+Camarillo
+Carpinteria
+Cerritos
+Chino Hills
+Claremont
+Commerce
+Dana Point
+Diamond Bar
+Duarte
+El Centro
+Fillmore
+Fountain Valley 
+Goleta
+Grand Terrace
+Grover Beach
+Guadalupe
+Hawaiian Gardens
+Hermosa Beach
+Hidden Hills
+Imperial
+Indian Wells
+Indio
+Irwindale
+La Cañada Flintridge
+La Habra Heights
+La Mirada
+La Palma
+La Puente
+La Quinta
+La Verne
+Laguna Hills
+Laguna Niguel
+Laguna Woods
+Lake Elsinore
+Lake Forest
+Lakewood
+Lawndale
+Lemon Grove
+Loma Linda
+Lomita
+Malibu
+Mammoth Lakes
+Mission Viejo
+Monrovia
+ Moorpark
+Morro Bay
+Needles
+Norwalk
+Ojai
+Pacific Grove
+Palm Desert
+Palos Verdes Estates  
+Paramount
+Paso Robles
+Pismo Beach
+Port Hueneme
+Poway
+Rancho Palos Verdes
+Rolling Hills
+Rolling Hills Estates
+Rosemead
+San Clemente
+San Dimas
+San Gabriel
+San Juan Capistrano
+San Luis Obispo
+San Marcos
+San Marino
+Santa Clarita
+Santa Fe Springs
+Santa Paula
+Seal Beach
+Seaside
+Signal Hill
+Solvang
+South El Monte
+Stanton
+Temple City
+Villa Park
+Vista
+Walnut
+West Covina
+West Hollywood
+Westlake Village
