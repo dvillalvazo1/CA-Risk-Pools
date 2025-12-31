@@ -1,0 +1,30 @@
+Membership verified from Northern California Cities Meetings and Agenda documentation. 
+
+From FYs 2014-2015 to 2023-2024 
+
+N = 22 
+
+```{r}
+library(tidyverse)
+
+# Define fiscal years and cities
+fys <- paste0(2014:2023, "-", 2015:2024)  # FY 2014-2015 to 2023-2024
+cities <- c(
+  "Anderson", "Auburn", "Colusa", "Corning", "Dixon", "Elk Grove",
+  "Folsom", "Galt", "Gridley", "Ione", "Jackson", "Lincoln",
+  "Marysville", "Nevada", "Oroville", "Paradise", "Placerville",
+  "Red Bluff", "Rio Vista", "Rocklin", "Willows", "Yuba City"
+)
+
+# Create dataframe with all combinations
+membership_df <- expand.grid(fy = fys, city = cities) %>%
+  arrange(fy, city)
+
+# View first few rows
+head(membership_df)
+
+table(membership_df$city)
+
+write.csv(membership_df, file = "northern_ca_cities_rp.csv")
+```
+
