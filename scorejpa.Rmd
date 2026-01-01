@@ -1,0 +1,58 @@
+
+```{r}
+library(readr)
+library(tidyverse)
+library(stringr)
+scorejpa <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/scorejpa.csv")
+View(scorejpa)
+# Clean whitespace + normalize fields
+scorejpa <- scorejpa %>%
+  mutate(
+    city = str_squish(city),
+    fy   = fy %>%
+      str_squish() %>%
+      str_remove_all("FY") %>%
+      str_squish()
+  ) %>%
+  filter(city != "" & !is.na(city))
+```
+
+
+```{r}
+scorejpa <- scorejpa %>%
+  separate(fy, into = c("fy_start", "fy_end"), sep = "[-–]", convert = TRUE) %>%
+  arrange(city, fy_start) %>%
+  mutate(fy = paste0(fy_start, "-", fy_end))
+
+# earliest FY in dataset
+first_fy <- min(scorejpa$fy_start, na.rm = TRUE)
+
+city_first_seen <- scorejpa %>%
+  group_by(city) %>%
+  summarise(first_fy = min(fy_start), .groups = "drop")
+
+# cities that left after joining 
+city_last_seen <- scorejpa %>%
+  group_by(city) %>%
+  summarise(last_fy = max(fy_start), .groups = "drop")
+
+latest_fy <- max(scorejpa$fy_start, na.rm = TRUE)
+
+cities_left <- city_last_seen %>%
+  filter(last_fy < latest_fy)
+
+cities_left
+
+scorejpa <- scorejpa %>%
+  left_join(city_first_seen, by = "city") %>%
+  left_join(city_last_seen, by = "city") %>%
+  mutate(
+    joined_late = first_fy > first_fy,
+    left_pool   = last_fy < latest_fy
+  )
+
+write.csv(scorejpa, file = "score.csv")
+
+
+```
+
