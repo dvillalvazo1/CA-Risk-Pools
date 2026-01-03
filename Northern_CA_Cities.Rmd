@@ -4,6 +4,8 @@ From FYs 2014-2015 to 2023-2024
 
 N = 22 
 
+Information gathered manually from NCCSIF website: https://www.nccsif.org/meeting-agendas/. I specifically looked at all meeting agendas from "Police Risk Management Committee" Agenda/ meeting minute notes. This allowed me to see all 22 cities part of this fund from this time frame. Data gathered on 12/31/2025. Note, that during this time period, no risk pools joined or left the risk pool. 
+
 ```{r}
 library(tidyverse)
 
