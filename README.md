@@ -9,7 +9,7 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
 **Public Entity Risk Management Authority (PERMA)**: Raw membership data from their website: Will help detect which cities belong to the public risk pool at different points in time. 
   Raw file: "perma.csv" 
   .Rmd: "perma.Rmd"
-  Output file: ".csv"
+  Output file: "permadata.csv"
   
 **Northern California Cities Risk Pool**
   .Rmd: "Northern_CA_Cities.Rmd" 
