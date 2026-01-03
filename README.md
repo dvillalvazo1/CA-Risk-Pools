@@ -24,3 +24,8 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
     Raw file: "cjprma.csv"
     .Rmd: "cjprma.Rmd"
     Output file: "cjprmadata.csv"
+
+**Redwood Empire Municipal Insurance Fund** Note: This risk pool merged with California Intergovernmental Risk Authority on 7/1/2021. 
+  Raw file: " "
+  .Rmd:" "
+  Output file: " "
