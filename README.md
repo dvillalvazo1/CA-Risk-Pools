@@ -6,7 +6,7 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   .Rmd: "CJPIA.Rmd" 
   Output file: CJPIA.csv 
   
-**Northern Caalifornia Cities Risk Pool**
+**Northern California Cities Risk Pool**
   .Rmd: "Northern_CA_Cities.Rmd" 
   Output file: northern_ca_cities_rp.csv" 
 
