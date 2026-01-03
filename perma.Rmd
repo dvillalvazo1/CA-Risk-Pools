@@ -1,8 +1,60 @@
+
 Data gathered on 12/31/2025 from https://www.permarisk.gov/about/communication/. Annual Reports from 2010-2024 were reviewed to determine membership. 
 
 ```{r}
+# load libraries
 library(readr)
-perma <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/perma.csv")
-View(perma)
-```
+library(tidyverse)
 
+# load data
+perma <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/perma.csv")
+
+perma <- perma %>%
+  mutate(
+    city = str_squish(city),
+    fy_joined = str_squish(fy_joined),
+    last_fy_reported = str_squish(last_fy_reported)
+  )
+
+# helper to extract FY start year
+parse_fy_start <- function(x) {
+  x %>%
+    str_extract("^\\d{4}") %>%
+    as.numeric()
+}
+
+perma <- perma %>%
+  mutate(
+    join_start = parse_fy_start(fy_joined),
+    last_start = parse_fy_start(last_fy_reported)
+  )
+
+fy_seq <- 2010:2023
+
+# ---- build long panel (KEEP fy_joined + last_fy_reported) ----
+perma_long <- perma %>%
+  select(city, fy_joined, last_fy_reported, join_start, last_start) %>%
+  crossing(fy_start = fy_seq) %>%
+  mutate(
+    member = case_when(
+      is.na(last_start) ~ fy_start >= join_start,
+      TRUE              ~ fy_start >= join_start & fy_start <= last_start
+    ),
+    member = as.integer(member),
+    fy = paste0(fy_start, "-", fy_start + 1)
+  )
+
+# ---- widen (KEEP fy_joined + last_fy_reported) ----
+perma_wide <- perma_long %>%
+  select(city, fy_joined, last_fy_reported, fy, member) %>%
+  pivot_wider(
+    names_from  = fy,
+    values_from = member,
+    values_fill = 0
+  )
+
+
+# export data as a csv. 
+write.csv(perma_wide, file = "permadata.csv")
+
+```
