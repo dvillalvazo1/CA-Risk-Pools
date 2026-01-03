@@ -1,0 +1,62 @@
+
+Data gathered on 1/3/2026 from https://www.cjprma.org/about/members/member-entities-list and Wayback Machine. 
+
+Membership entity lists from the website also indicated the cities membership start dates. 
+
+```{r}
+# load libraries
+library(readr)
+library(tidyverse)
+
+# load data
+cjprma <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/cjprma .csv")
+ 
+cjprma <- cjprma %>%
+  mutate(
+    city = str_squish(city),
+    fy_joined = str_squish(year_joined),
+    last_fy_reported = str_squish(last_fy_on_site)
+  )
+
+# helper to extract FY start year
+parse_fy_start <- function(x) {
+  x %>%
+    str_extract("^\\d{4}") %>%
+    as.numeric()
+}
+
+cjprma <- cjprma %>%
+  mutate(
+    join_start = parse_fy_start(fy_joined),
+    last_start = parse_fy_start(last_fy_reported)
+  )
+
+fy_seq <- 2010:2023
+
+# ---- build long panel (KEEP fy_joined + last_fy_reported) ----
+cjprma_long <- cjprma %>%
+  select(city, fy_joined, last_fy_reported, join_start, last_start) %>%
+  crossing(fy_start = fy_seq) %>%
+  mutate(
+    member = case_when(
+      is.na(last_start) ~ fy_start >= join_start,
+      TRUE              ~ fy_start >= join_start & fy_start <= last_start
+    ),
+    member = as.integer(member),
+    fy = paste0(fy_start, "-", fy_start + 1)
+  )
+
+# ---- widen (KEEP fy_joined + last_fy_reported) ----
+cjprma_wide <- cjprma_long %>%
+  select(city, fy_joined, last_fy_reported, fy, member) %>%
+  pivot_wider(
+    names_from  = fy,
+    values_from = member,
+    values_fill = 0
+  )
+
+
+# export data as a csv. 
+write.csv(cjprma_wide, file = "cjprmadata.csv")
+
+```
