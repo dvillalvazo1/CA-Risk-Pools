@@ -21,3 +21,6 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   Output file: "score.csv" 
 
   **California Joint Powers Risk Management Authority (CJPRMA)**
+    Raw file: ""
+    .Rmd: ""
+    Output file: ""
