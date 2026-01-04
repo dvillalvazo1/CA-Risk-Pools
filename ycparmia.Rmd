@@ -1,0 +1,55 @@
+
+Data gathered on 1/3/2026 from https://www.ycparmia.org/agenda.htm and https://www.yololafco.org/files/acb3396b9/LAFCo%2BAgenda%2BPacket%2B12.18.19.pdf?utm_source=chatgpt.com
+
+Membership entity lists from the website also indicated the cities membership start dates. 
+
+```{r}
+# load libraries
+library(readr)
+library(tidyverse)
+
+# load data
+ycparmia <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/ycparmia.csv")
+
+# clean city and year_joined columns
+ycparmia <- ycparmia %>%
+  mutate(
+    city = str_squish(city),
+    fy_joined = str_squish(year_joined)
+  )
+
+# helper to extract FY start year as numeric
+parse_fy_start <- function(x) {
+  x %>%
+    str_extract("^\\d{4}") %>%  # grab first 4 digits
+    as.numeric()
+}
+
+ycparmia <- ycparmia %>%
+  mutate(
+    join_start = parse_fy_start(fy_joined)
+  )
+
+# FY sequence from 2010–2024
+fy_seq <- 2010:2024
+
+# ---- build long panel ----
+ycparmia_long <- ycparmia %>%
+  crossing(fy_start = fy_seq) %>%    # expand across all FYs
+  mutate(
+    member = as.integer(fy_start >= join_start),  # 1 if city has joined by that FY
+    fy = paste0(fy_start, "-", fy_start + 1)      # FY label
+  )
+
+# ---- widen so each FY is a column ----
+ycparmia_wide <- ycparmia_long %>%
+  select(city, fy_joined, fy, member) %>%
+  pivot_wider(
+    names_from  = fy,
+    values_from = member,
+    values_fill = 0
+  )
+
+# export as CSV
+write.csv(ycparmia_wide, file = "ycparmiadata.csv", row.names = FALSE)
+```
