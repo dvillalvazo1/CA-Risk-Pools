@@ -39,3 +39,8 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   Raw file: "cira.csv"
   .Rmd:"cira.Rmd"
   Output file: "ciradata.csv"
+
+**Yolo County Public Agency Risk Management Insurance Authority**
+  Raw file: "ycparmia.csv"
+  .Rmd: "ycparmia.Rmd"
+  Output file: "ycparmiadata.csv"
