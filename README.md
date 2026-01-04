@@ -29,3 +29,13 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   Raw file: " "
   .Rmd:" "
   Output file: " "
+
+**Public Agency Risk Sharing Authority of California** Note: This risk pool merged with California Intergovernmental Risk Authority on 7/1/2021. 
+  Raw file: " "
+  .Rmd:" "
+  Output file: " " 
+
+**California Intergovernmental Risk Authority**
+  Raw file: " "
+  .Rmd:" "
+  Output file: " "
