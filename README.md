@@ -47,3 +47,6 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
 
 **Central San Joaquin Valley Risk Management Authority** Note: data was gathered from https://www.csjvrma.org/documents/agendasandminutes/ website and waybackmachine. 
   Raw file: "csjvrma.csv" 
+
+**Independent Cities Risk Management Authority** Note: data was gathered from https://www.icrma.org/about/financial-information/ but is missind data for seven fiscal years. 
+  Raw file: "icrma_in_progress.csv" 
