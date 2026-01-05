@@ -44,3 +44,6 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   Raw file: "ycparmia.csv"
   .Rmd: "ycparmia.Rmd"
   Output file: "ycparmiadata.csv"
+
+**Central San Joaquin Valley Risk Management Authority** Note: data was gathered from https://www.csjvrma.org/documents/agendasandminutes/ website and waybackmachine. 
+  Raw file: "csjvrma.csv" 
