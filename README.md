@@ -32,8 +32,8 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
 
 **Public Agency Risk Sharing Authority of California** Note: This risk pool merged with California Intergovernmental Risk Authority on 7/1/2021. 
   Raw file: "parsac.csv"
-  .Rmd:""
-  Output file: "" 
+  .Rmd:"parsac.Rmd"
+  Output file: "parsacdata.csv" 
 
 **California Intergovernmental Risk Authority**
   Raw file: "cira.csv"
