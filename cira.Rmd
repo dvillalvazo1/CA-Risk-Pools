@@ -1,0 +1,67 @@
+
+Data gathered on 1/3/2026 fromhttps://cira-jpa.org/about-cira/members/ and Wayback Machine. Note, that PARSC & REMIF merged to become California Intergovernmental Risk Authority o 7/1/2021.  
+
+Membership entity lists from the website also indicated the cities membership start dates. 
+
+```{r}
+# load libraries
+library(readr)
+library(tidyverse)
+
+# load data
+cira <- read_csv("~/Desktop/Desktop - Debora’s MacBook Pro/CA_risk_pools/cira.csv")
+
+
+#creating fy_end date 
+cira <- cira %>%
+  mutate(fy_end = "2025-2026")
+
+cira <- cira %>%
+  mutate(
+    city = str_squish(city),
+    fy_joined = str_squish(year_joined),
+    last_fy_reported = str_squish(fy_end)
+  )
+
+# helper to extract FY start year
+# extract FY start year normally
+parse_fy_start <- function(x) {
+  str_extract(x, "^\\d{4}") %>% as.numeric()
+}
+
+cira <- cira %>%
+  mutate(
+    join_start = parse_fy_start(fy_joined),
+    
+    # if join year is missing, assume member since 2010
+    join_start = if_else(is.na(join_start), 2010L, join_start),
+
+    last_start = parse_fy_start(last_fy_reported)
+  )
+fy_seq <- 2021:2025
+
+# build long panel
+cira_long <- cira %>%
+  select(city, fy_joined, last_fy_reported, join_start, last_start) %>%
+  crossing(fy_start = fy_seq) %>%
+  mutate(
+    member = if_else(
+      fy_start >= join_start & (is.na(last_start) | fy_start <= last_start),
+      1L,
+      0L
+    ),
+    fy = paste0(fy_start, "-", fy_start + 1)
+  )
+
+# widen keeping fy_joined + last_fy_reported
+cira_wide <- cira_long %>%
+  select(city, fy_joined, last_fy_reported, fy, member) %>%
+  pivot_wider(
+    names_from  = fy,
+    values_from = member,
+    values_fill = 0
+  )
+
+# export data as a csv. 
+write.csv(cira_wide, file = "ciradata.csv")
+```
