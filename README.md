@@ -51,6 +51,8 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
 **Independent Cities Risk Management Authority** Note: data was gathered from https://www.icrma.org/about/financial-information/ but is missind data for seven fiscal years. 
   Raw file: "icrma_in_progress.csv" 
 
-**Municipal Pooling Authority of Northern California**
+**Municipal Pooling Authority of Northern California** Note: data was gathered from https://www.mpa-nc.com/agendacenter 
+  Raw file: "mpanc.csv" 
 
 **Bay Cities Joint Powers Insurance Authority**
+  Raw file: 
