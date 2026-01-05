@@ -55,4 +55,4 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   Raw file: "mpanc.csv" 
 
 **Bay Cities Joint Powers Insurance Authority**
-  Raw file: 
+  Raw file: "bcjpia_in_progress.csv"
