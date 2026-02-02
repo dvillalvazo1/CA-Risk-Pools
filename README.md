@@ -64,7 +64,12 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
   Raw file: "prismg2.csv" 
 
 **Golden State Risk Management Authority (GSRMA)** 
+Awaiting roster from public records request. 
 
 **Association of Bay Area Governments (ABAG)** 
+Awaiting roster from public records request. 
+
 
 **Pooled Liability Assurance Network (PLAN)** 
+Awaiting roster from public records request. 
+
