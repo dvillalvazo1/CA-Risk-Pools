@@ -66,7 +66,7 @@ Raw files, scripts, and cleaned data for Debora Villalvazo's research on public 
 **Golden State Risk Management Authority (GSRMA)** 
 Awaiting roster from public records request. 
 
-**Association of Bay Area Governments (ABAG)** 
+**Association of Bay Area Governments (ABAG)** Note:  Note, on July 1, 2018 the risk pool for gen liability under ABAG was transferred to the PLAN risk pool.
 Awaiting roster from public records request. 
 
 
